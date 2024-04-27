@@ -39,6 +39,11 @@
     background: #fff;
 }
 
+.div-carousel {
+    width: 1519px;
+    margin-left: -24px;
+}
+
 /*Responsive*/
 
 @media (max-width: 320px) {
@@ -77,6 +82,11 @@
         font-family: "Sedan", serif;
         font-size: 16px;
         width: 195px;
+    }
+
+    .div-carousel {
+        width: 320px;
+        margin-left: -24px;
     }
 
 }
@@ -119,6 +129,11 @@
         width: 300px;
     }
 
+    .div-carousel {
+        width: 375px;
+        margin-left: -24px;
+    }
+
 }
 
 @media (min-width:  377px) and (max-width: 576px) {
@@ -159,12 +174,21 @@
         width: 300px;
     }
 
+    .div-carousel {
+        width: 426px;
+        margin-left: -24px;
+    }
+
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
 
     .menu-principal {
         display: none;
+    }
+
+    .navbar-toggler:checked~.div-carousel {
+        margin-top: 200px;
     }
 
     .menu-tablet {
@@ -192,12 +216,22 @@
         width: 768px;
     }
 
+    .div-carousel {
+        width: 768px;
+        margin-left: -24px;
+    }
+
 }
   
 @media (min-width: 993px) and (max-width: 1200px) {
 
     .menu-tablet {
         display: none;
+    }
+
+    .div-carousel {
+        width: 1024px;
+        margin-left: -24px;
     }
 
 }
