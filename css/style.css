@@ -44,6 +44,39 @@
     margin-left: -24px;
 }
 
+.h2-buscar-categoria {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    text-align: center;
+}
+
+.img-height-190 {
+    height: 190px;
+}
+
+.div-card {
+    --bs-bg-opacity: 1;
+    background: #000;
+    color: white;
+    text-align: center;
+}
+
+.botao-lilas {
+    background-color: #9353FF;
+}
+
+.section-facilidades {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background: #000;
+    margin-left: -12px;
+    width: 1519px;
+}
+
+.text-white {
+    color: #fff;
+}
+
 /*Responsive*/
 
 @media (max-width: 320px) {
@@ -87,6 +120,10 @@
     .div-carousel {
         width: 320px;
         margin-left: -24px;
+    }
+
+    .img-height-190 {
+        height: 200px;
     }
 
 }
@@ -222,6 +259,10 @@
         margin-left: -24px;
     }
 
+    .div-card-height-228 {
+        height: 228px;
+    }
+
 }
   
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -233,6 +274,10 @@
     .div-carousel {
         width: 1024px;
         margin-left: -24px;
+    }
+    
+    .img-height-190 {
+        height: 250px;
     }
 
 }
