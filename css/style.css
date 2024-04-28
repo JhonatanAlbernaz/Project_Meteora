@@ -62,19 +62,58 @@
 }
 
 .botao-lilas {
+    font-weight: 600;
     background-color: #9353FF;
+    border-radius: 5px;
+    border: 0px solid transparent;
+}
+
+.botao-lilas:hover {
+    background: #DAFF01;
+    color: #000;
+    transition: 0.4s ease-out;
 }
 
 .section-facilidades {
     padding-top: 4em;
     padding-bottom: 4em;
-    background: #000;
+    background: #444040;
     margin-left: -12px;
     width: 1519px;
 }
 
 .text-white {
     color: #fff;
+}
+
+.verde-limao {
+    color: #DAFF01;
+}
+
+.margin-mx-5 {
+    margin-right: 3rem !important;
+    margin-left: 3rem !important;
+}
+
+.botao-enviar {
+    background-color: #9353FF;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid transparent;
+    color: white;
+    width: 130px;
+    font-weight: 600;
+}
+
+.botao-enviar:hover {
+    transition: 0.4s ease-out;
+    background: #DAFF01;
+    color: #000;
+}
+
+.background-footer {
+    background: #000;
+    color: #fff;
+    font-weight: 600;
 }
 
 /*Responsive*/
@@ -126,6 +165,18 @@
         height: 200px;
     }
 
+    .section-facilidades {
+        padding-top: 4em;
+        padding-bottom: 4em;
+        background: #000;
+        margin-left: -12px;
+        width: 320px;
+    }
+
+    .margin-mx-5 {
+        margin-left: 0rem !important;
+    }
+
 }
 
 @media (min-width: 321px) and (max-width: 376px) {
@@ -171,6 +222,18 @@
         margin-left: -24px;
     }
 
+    .section-facilidades {
+        padding-top: 4em;
+        padding-bottom: 4em;
+        background: #000;
+        margin-left: -12px;
+        width: 375px;
+    }
+
+    .margin-mx-5 {
+        margin-left: 0rem !important;
+    }
+
 }
 
 @media (min-width:  377px) and (max-width: 576px) {
@@ -214,6 +277,22 @@
     .div-carousel {
         width: 426px;
         margin-left: -24px;
+    }
+
+    .section-facilidades {
+        padding-top: 4em;
+        padding-bottom: 4em;
+        background: #000;
+        margin-left: -12px;
+        width: 426px;
+    }
+
+    .margin-mx-5 {
+        margin-left: 1.6rem !important;
+    }
+
+    .margin-mx-5-2 {
+        margin-left: 1.6rem !important;
     }
 
 }
@@ -263,6 +342,18 @@
         height: 228px;
     }
 
+    .section-facilidades {
+        padding-top: 4em;
+        padding-bottom: 4em;
+        background: #000;
+        margin-left: -12px;
+        width: 768px;
+    }
+
+    .margin-mx-5 {
+        margin-left: 0rem !important;
+    }
+
 }
   
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -278,6 +369,19 @@
     
     .img-height-190 {
         height: 250px;
+    }
+
+    .section-facilidades {
+        padding-top: 4em;
+        padding-bottom: 4em;
+        background: #000;
+        margin-left: -12px;
+        width: 1024px;
+    }
+
+    .margin-mx-5 {
+        margin-right: 1rem !important;
+        margin-left: 1rem !important;
     }
 
 }
